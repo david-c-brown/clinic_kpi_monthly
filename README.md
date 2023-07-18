@@ -11,4 +11,6 @@ cpt_analysis was the first file in this tree to be finalized and the most impact
 load is the product of an internal CRM being laborious to modify, and no accessible API for metric updates. Everything needed to be through the UI. This raised some interesting issues, as the descriptors on the site are inconsistent from location to location. A lot of trial and error, a few other projects that had to get done, and some assistance grabbing selectors from ChatGPT led to this streamlined, automated data entry program.
 
 ## Further optimizations
-Updating rev_analysis to inject numbers directly into the master spreadsheet would be ideal, but the usage of dropbox for file management makes the saved files more likely to corrupt due to version control.
+Updating rev_analysis to inject numbers directly into the master spreadsheet would be ideal, but the usage of dropbox for file management makes the saved files more likely to corrupt due to version control. Nevertheless, this would be the final step that fits into a meaningfully time saving project:
+
+![time saved by xkcd](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
